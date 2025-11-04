@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout repo
-      uses: actions/checkout@main
+      uses: actions/checkout@v5
     - name: build application
       run: make docker-build
     - name: check dist
